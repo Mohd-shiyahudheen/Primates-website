@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Primates Development</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <!-- <h1><a href="index.html">Selecao</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="assets/img/logo-primates/logo alt1white.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#constructions">About</a></li>
+          <li><a class="nav-link scrollto" href="#features">Technology</a></li>
+          <li><a class="nav-link scrollto " href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#clients">Clients</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#">Drop Down 1</a></li>
+            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="#">Deep Drop Down 1</a></li>
+                <li><a href="#">Deep Drop Down 2</a></li>
+                <li><a href="#">Deep Drop Down 3</a></li>
+                <li><a href="#">Deep Drop Down 4</a></li>
+                <li><a href="#">Deep Drop Down 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Drop Down 2</a></li>
+            <li><a href="#">Drop Down 3</a></li>
+            <li><a href="#">Drop Down 4</a></li>
+          </ul>
+        </li> -->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+    <div>
+      <!-- <img src="assets/img/hero-carousel/download.png" alt=""> -->
+      <!-- <video src="">
+      <source src="assets/videos/primates_animation.webm">
+    </video> -->
+    </div>
+    <div data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Welcome to <span
+              style="color: rgb(46, 94, 237)">Primates</span></h2>
+          <p class="animate__animated fanimate__adeInUp">Developers Den | A Team of Highly Skilled Engineers </p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section>
+  <!-- End Hero -->
+
+
+
+  <!-- About us Section -->
+  <section id="constructions" class="constructions">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-header">
+        <h2>About Us</h2>
+        <p>
+          Primates Development Pvt Ltd created Digital Transformation solutions for Industry that span the entire
+          lifecycle - from conceptual engineering through operations and supply chain with the help of AI, Machine
+          Learning , IIOT, etc.,
+        </p>
+      </div>
+
+      <div class="row gy-4">
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="card-item">
+            <div class="row">
+              <div class="col-xl-5">
+                <div class="card-bg"
+                  style="background-image: url(assets/img/service/machine-lerning.jpg); border-radius: 16px;"></div>
+              </div>
+              <div class="col-xl-7 d-flex align-items-center">
+                <div class="card-body">
+                  <h4 class="card-title">Machine Learning</h4>
+                  <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti
+                    adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Card Item -->
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="card-item">
+            <div class="row">
+              <div class="col-xl-5">
+                <div class="card-bg"
+                  style="background-image: url(assets/img/service/Ai-image.jpg); border-radius: 16px;"></div>
+              </div>
+              <div class="col-xl-7 d-flex align-items-center">
+                <div class="card-body">
+                  <h4 class="card-title">Artificial Intelligence</h4>
+                  <p>Sunt deserunt maiores voluptatem autem est rerum perferendis rerum blanditiis. Est laboriosam qui
+                    iste numquam laboriosam voluptatem architecto. Est laudantium sunt at quas aut hic. Eum dignissimos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Card Item -->
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="card-item">
+            <div class="row">
+              <div class="col-xl-5">
+                <div class="card-bg"
+                  style="background-image: url(assets/img/service/web3_block\ chain.svg); border-radius: 16px;"></div>
+              </div>
+              <div class="col-xl-7 d-flex align-items-center">
+                <div class="card-body">
+                  <h4 class="card-title">Block Chain Development</h4>
+                  <p>Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam quae quaerat
+                    ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit. Ut sunt temporibus nulla
+                    culpa.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Card Item -->
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="card-item">
+            <div class="row">
+              <div class="col-xl-5">
+                <div class="card-bg"
+                  style="background-image: url(assets/img/service/iiot-primates.png); border-radius: 16px;"></div>
+              </div>
+              <div class="col-xl-7 d-flex align-items-center">
+                <div class="card-body">
+                  <h4 class="card-title">Industrial internet of things</h4>
+                  <p>Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos doloremque architecto
+                    illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut aliquid ea dolores libero nobis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Card Item -->
+      </div>
+    </div>
+  </section>
+  <!-- About us Section -->
+
+
+  <!-- Technology Section -->
+  <section id="features" class="features">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-header">
+        <h2>Technology</h2>
+      </div>
+
+      <ul class="nav nav-tabs row gy-4 d-flex">
+
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+            <img src="assets/img/technology/Mongodb.png" style="height: 100px;" alt="">
+            <!-- <i class="bi bi-binoculars color-cyan"></i>
+              <h4>MongoDB</h4> -->
+          </a>
+        </li><!-- End Tab 1 Nav -->
+
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+            <img src="assets/img/technology/express-js.png" style="height: 100px;" alt="">
+            <!-- <i class="bi bi-box-seam color-indigo"></i>
+              <h4>Undaesenti</h4> -->
+          </a>
+        </li><!-- End Tab 2 Nav -->
+
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+            <img src="assets/img/technology/react.png" style="height: 100px;" alt="">
+          </a>
+        </li><!-- End Tab 3 Nav -->
+
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+            <img src="assets/img/technology/node-js (1).png" style="height: 100px;" alt="">
+          </a>
+        </li><!-- End Tab 4 Nav -->
+
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
+            <img src="assets/img/technology/flutter-banner.png" style="height: 100px;" alt="">
+          </a>
+        </li><!-- End Tab 5 Nav -->
+
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
+            <img src="assets/img/technology/blockchain.png" style="height: 100px;" alt="">
+          </a>
+        </li><!-- End Tab 6 Nav -->
+
+      </ul>
+
+    </div>
+  </section>
+  <!-- Technology Section end -->
+
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services section-bg">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="section-title" data-aos="fade-right">
+            <h2>Services</h2>
+            <p>
+              <span style="font-weight: bold;">
+                The Most Comprehensive development environment
+                for complete Digital Transformation of your Business.
+                Building ERPs
+                Everything you need to provide excellent control over your business productivity and ease of management
+              </span>
+              Our mission is to provide advanced Digital Transformation (Industry 4.0) to any Industry that needs
+              acceleration in terms of productivity, Management and Supply chain. We quickly adapt into New Technologies
+              and work towards implementing them into our solutions.
+            </p>
+          </div>
+          <div>
+            <p>
+              <span style="color: #3ec1d5;">CEO & Founder of Primates Development Pvt Ltd</span>
+            </p>
+            <img src="assets/img/service/signature-1-1-460x168.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-md-6 d-flex align-items-stretch">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
+                <h4><a href="">Mobile App Development</a></h4>
+                <!-- <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p> -->
+                <img src="assets/img/service/mobile_app.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                <!-- <div class="icon"><i class="bx bx-file"></i></div> -->
+                <h4><a href="">Software Development</a></h4>
+                <!-- <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p> -->
+                <img src="assets/img/service/software-development.png" alt="">
+              </div>
+            </div>
+
+            <div class="col-md-6 d-flex align-items-stretch mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+                <!-- <div class="icon"><i class="bx bx-tachometer"></i></div> -->
+                <h4><a href="">AR & VR Based Projects</a></h4>
+                <!-- <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p> -->
+                <img src="assets/img/service/services-AR-VR-development-1.png" alt="">
+              </div>
+            </div>
+
+            <div class="col-md-6 d-flex align-items-stretch mt-4">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                <!-- <div class="icon"><i class="bx bx-world"></i></div> -->
+                <h4><a href="">IOT Based Projects</a></h4>
+                <!-- <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p> -->
+                <img src="assets/img/service/iot.jpg" alt="">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- End Services Section -->
+
+
+  <!-- ======= Clients Section ======= -->
+  <section id="clients" class="clients">
+    <div class="container" data-aos="zoom-in">
+
+      <div class="section-header">
+        <h2>Our Clients</h2>
+      </div>
+
+      <div class="clients-slider swiper">
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide"><img src="assets/img/clients/Chope-AI-v06-TM-01-310x103.png" class="img-fluid"
+              alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/basf-310x112.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/izeno-removebg-preview.png" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide"><img src="assets/img/clients/boardroom.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/Dperception-310x59.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/iiec.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/nokia-310x52.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/Na-me-you.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/fiberone.png" class="img-fluid" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+  </section>
+  <!-- End Clients Section -->
+
+
+  <!-- ======= Recent Blog Posts Section ======= -->
+  <section id="recent-blog-posts" class="recent-blog-posts">
+    <div class="container" data-aos="fade-up"">
+
+  
+  
+<div class=" section-header">
+      <h2>Recent Blog Posts</h2>
+      <p>In commodi voluptatem excepturi quaerat nihil error autem voluptate ut et officia consequuntu</p>
+    </div>
+
+    <div class="row gy-5" id="cards-container">
+
+
+    </div>
+
+    </div>
+  </section>
+  <!-- End Recent Blog Posts Section -->
+
+  <!-- ======= Team Section ======= -->
+  <section id="team" class="team">
+    <div class="container-fluid">
+
+      <div class="section-header">
+        <h2>Team</h2>
+        <p>
+          Primates Development Pvt Ltd created Digital Transformation solutions for Industry that span the entire
+          lifecycle - from conceptual engineering through operations and supply chain with the help of AI, Machine
+          Learning , IIOT, etc.,
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-xl-10">
+          <div class="row" id="team-container">
+
+           
+            <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
+              <div class="member">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <div class="member-info">
+                  <div class="member-info-content">
+                    <h4>Amanda Jepson</h4>
+                    <span>Accountant</span>
+                  </div>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- End Member Item -->
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- End Team Section -->
+
+
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2>PRIMAT<span>E</span>S</h2>
+                </div>
+
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                <div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/PrimatesSocial/"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/primatesdevelop"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/primates_development/?hl=en"><i
+                          class="bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/primates-development-pvt-ltd/mycompany/verification/"><i
+                          class="bi bi-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>information</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                </p>
+                <div class="footer-contacts">
+                  <p><span>Tel:</span> +91 7695954143</p>
+                  <p><span>Email:</span> info@primatesdev.com</p>
+                  <p><span>Working Hours:</span> 10am to 6pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>Connect With Us</h4>
+                <div class="form-background rounded">
+                  <form>
+                    <input id="name" type="text" class="form-control border-0 py-2 mb-2" placeholder="Name">
+                    <input id="email" type="email" class="form-control border-0 py-2 mb-2" placeholder="Email">
+                    <textarea id="message" class="form-control border-0 mb-2" rows="2" placeholder="Message"></textarea>
+                    <button type="submit" class=" w-75 py-2 mt-2"
+                      style="background: #3EC1D5; border-radius: 15px; border-top-style: none; border-bottom-style: none; margin-left: 13%;">Send
+                      Message
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/blog.js"></script>
+  <script src="assets/js/team.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6MCGRKFFN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-E6MCGRKFFN');
+  </script>
+</body>
+
+</html>
